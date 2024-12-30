@@ -5,11 +5,11 @@ import { FaShoppingBag } from 'react-icons/fa'
 const OrdersPage = () => {
     return (
         <div className='bg-gray-100 min-h-screen' >
-            <div className='flex justify-between px-3 md:px-5 pt-4'>
+            <div className='flex justify-between items-center px-3 md:px-5 pt-4'>
                 <h1 className='text-lg md:text-xl font-semibold'>Orders</h1>
                 <h1 className='font-medium'>Welcome Back,Ritik</h1>
             </div>
-            <div className='bg-white p-3 rounded-lg mx-5 my-5'>
+            <div className='bg-white p-3 rounded-lg mx-3 md:mx-5 my-5'>
                 <div className='flex justify-between font-medium pb-2 px-3'>
                     <span>Order</span>
                     <span>Status</span>
@@ -24,7 +24,7 @@ const OrdersPage = () => {
                                     <div className='p-2 rounded-md bg-gray-300'>
                                         <FaShoppingBag className='text-purple-800' />
                                     </div>
-                                    <div className='ml-4'>
+                                    <div className='ml-2 md:ml-4'>
                                         <p className='text-lg font-bold '>{order.name.first}</p>
                                         <p className='font-semibold text-gray-700 '>${order.total}</p>
                                     </div>

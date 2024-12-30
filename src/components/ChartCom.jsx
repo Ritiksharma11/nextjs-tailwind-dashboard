@@ -41,7 +41,7 @@ const ChartCom = () => {
       <ResponsiveContainer width="100%" height="100%">
         <BarChart
           width={500}
-          height={300}
+          height={320}
           data={data}
           margin={{
             top: 5,

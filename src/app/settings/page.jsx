@@ -20,7 +20,7 @@ import {
 const SettingsPage = () => {
   return (
     <div className='bg-gray-100 min-h-screen'>
-      <div className='flex justify-between px-3 md:px-5 pt-4'>
+      <div className='flex justify-between items-center px-3 md:px-5 pt-4'>
         <h1 className='text-lg md:text-xl font-semibold'>Settings</h1>
         <h1 className='font-medium'>Welcome Back,Ritik</h1>
       </div>

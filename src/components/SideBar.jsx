@@ -8,8 +8,8 @@ import profileImage from '../public/photo.jpg'
 
 const SideBar = () => {
     return (
-        <div className='fixed w-16 md:w-20'>
-            <div className='flex flex-col justify-between  h-screen bg-white border-r-[1px] p-2 pt-5 md:p-4 '>
+        <div className='fixed w-16 h-screen top-0 bottom-0 md:w-20'>
+            <div className='flex flex-col justify-between  h-screen bg-white border-r-[1px] p-2 py-5 md:p-4 '>
                 <div className='flex flex-col items-center'>
                     <Link href='/'>
                         <div className='bg-purple-800 text-white rounded-lg font-bold p-3 inline-block '>
