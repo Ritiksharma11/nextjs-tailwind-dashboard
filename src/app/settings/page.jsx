@@ -26,7 +26,7 @@ const SettingsPage = () => {
       </div>
       <div className='min-h-[80vh] bg-slate-200 flex justify-center items-center mx-3  md:mx-5 mt-5 rounded-lg'>
         <div>
-          <Tabs defaultValue="account" className="w-[250px] md:w-[400px]">
+          <Tabs defaultValue="account" className="w-[275px] md:w-[400px]">
             <TabsList className="grid w-full grid-cols-2">
               <TabsTrigger value="account">Account</TabsTrigger>
               <TabsTrigger value="password">Password</TabsTrigger>
